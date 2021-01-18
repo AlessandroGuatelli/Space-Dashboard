@@ -1,0 +1,24 @@
+<html>
+    <head>
+      <meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+        <title>Space Dashboard</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="script/controller.js"></script>
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
+    </head>
+    <body>
+        <button type="button" onclick="iss_finder()">mostra ISS posizione</button>
+        <button type="button" onclick="people_in_space()">mostra le persone che sono attualmente nello spazio</button>
+    </br></br><button type="button" onclick="meteor_report()">mostra gli impatti dei meteoriti</button>
+        <button type="button" onclick="near_earth()">mostra asteroidi vicini alla terra</button>
+    </br></br><button type="button" onclick="clear_screen()">pulisci schermata</button>
+        <div id = "long"></div>
+        <div id = "lat"></div>
+        <div id = "ppl"></div>
+        <div id = "mtr"></div>
+        <div id = "nsp"></div>
+        <div id='map' style='width:100%; height: 92%;'></div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    background-image: url("./img/earth_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  table, tr, td{
+    border:1px solid;
+    border-color: black;
+    background-color: lightgray;
+ }
+ #long {
+   width: 23%;
+   border: 1px;
+   border-radius: 20px;
+   text-align: center;
+   font-size:20px;
+   background-color: lightseagreen;
+}
+#lat {
+  width: 20%;
+  border: 1px;
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: lightsteelblue;
+}
+button{
+    border-radius: 20px;
+}
+#map{
+    border-radius: 40px;
+}
